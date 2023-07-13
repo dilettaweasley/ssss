@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "488597209440",
+    "project_id": "ssssiga",
+    "storage_bucket": "ssssiga.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488597209440:android:4ffbb7e8116f3422b05e05",
+        "android_client_info": {
+          "package_name": "com.example.ssss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488597209440-fuirpufdej3rr26ssl9327p1n55jbenb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ssss",
+            "certificate_hash": "a5e338396c9efb2ae9ee0ea6c66717f46f22e15c"
+          }
+        },
+        {
+          "client_id": "488597209440-9hpndplsuhdalb03ep7087fa3pse6bdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmvx41VTostP1wsM_-uGiUJi6iOIhngKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488597209440-9hpndplsuhdalb03ep7087fa3pse6bdl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

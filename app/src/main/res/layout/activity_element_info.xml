@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E7EBFF"
+        android:gravity="center"
+        android:text="@string/i_tuoi_prodotti"
+        android:textColor="#002359"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E7EBFF">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/back_to_previous_activity"
+            android:src="@drawable/back"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/addElementButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="282dp"
+            android:layout_toEndOf="@id/backButton"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/add_machine"
+            android:src="@drawable/add"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </RelativeLayout>
+
+    <ListView
+        android:padding="16dp"
+        android:id="@+id/elementListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#E7EBFF"
+        android:scrollbars="vertical"/>
+</LinearLayout>

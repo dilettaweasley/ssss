@@ -1,0 +1,32 @@
+{
+  "posti": [
+    {
+      "nome": "Statua della Libertà",
+      "posizione": {
+        "latitudine": 40.6892,
+        "longitudine": -74.0445
+      }
+    },
+    {
+      "nome": "Torre Eiffel",
+      "posizione": {
+        "latitudine": 48.8584,
+        "longitudine": 2.2945
+      }
+    },
+    {
+      "nome": "Colosseo",
+      "posizione": {
+        "latitudine": 41.8902,
+        "longitudine": 12.4922
+      }
+    },
+    {
+      "nome": "Grande Muraglia Cinese",
+      "posizione": {
+        "latitudine": 40.4319,
+        "longitudine": 116.5704
+      }
+    }
+  ]
+}

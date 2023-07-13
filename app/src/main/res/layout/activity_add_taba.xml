@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7CC17A"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_gravity="top"
+        android:background="#7CC17A">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/back_to_previous_activity"
+            android:src="@drawable/back"
+            tools:ignore="ImageContrastCheck" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:text="@string/aggiungi_una_nuoa_macchinetta"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:hint="@string/inserisci_il_nome"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#040967" />
+
+    <fragment
+        android:id="@+id/autocomplete_fragment"
+        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+        android:layout_width="343dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="FragmentTagUsage" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#FBC2FF"
+        android:text="@string/aggiungi"
+        android:textColor="#0A1688" />
+</LinearLayout>

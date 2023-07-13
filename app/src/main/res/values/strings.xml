@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ssss</string>
+    <string name="login_like_admin">Login like admin</string>
+    <string name="access_without_login">Access without login</string>
+    <string name="add_machine">Add Machine</string>
+    <string name="enter_name_of_the_machine">Enter name of the machine</string>
+    <string name="save">Save</string>
+    <string name="to_save_new_machine">to save new machine</string>
+    <string name="back_to_previous_activity">Back to previous activity</string>
+    <string name="edit_element">Edit Element</string>
+    <string name="yes">Yes</string>
+    <string name="si">si</string>
+    <string name="no">No</string>
+    <string name="modifica_disponibilt_dell_elemnto">Modifica disponibiltà dell\'elemnto</string>
+    <string name="nome_elemento">Nome elemento</string>
+    <string name="Si">Si</string>
+    <string name="No">No</string>
+    <string name="Login_come_cliente">Login come clienti</string>
+    <string name="login_come_cliente">Login come cliente</string>
+    <string name="login_come_amministratore">Login come amministratore</string>
+    <string name="siga_siga">siga siga</string>
+    <string name="inserisci_il_nome">Inserisci il nome</string>
+    <string name="aggiungi">Aggiungi</string>
+    <string name="cosa_puoi_trovare">Cosa puoi trovare</string>
+    <string name="le_tue_macchinette">Le tue macchinette</string>
+    <string name="aggiungi_una_nuoa_macchinetta">Aggiungi una nuova macchinetta</string>
+    <string name="i_tuoi_prodotti">I tuoi prodotti</string>
+    <string name="logout">Logout</string>
+</resources>
